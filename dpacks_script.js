@@ -1160,7 +1160,7 @@ function sendToBackend(dpacks_key) {
     };
 
 
-    fetch('http://localhost:4001/api/analytical_alerts/Alert/sessionrecord', {
+    fetch('http://localhost:4001/api/analytics/Alert/sessionrecord', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
